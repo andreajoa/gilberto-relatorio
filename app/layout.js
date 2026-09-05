@@ -1,4 +1,5 @@
 import './globals.css'
+import './motion-fix.css'
 
 export const metadata = {
   title: 'Relatório de Vendas e Payouts',
