@@ -1,5 +1,6 @@
 import './globals.css'
 import './motion-fix.css'
+import ReportUpdates from './report-updates'
 
 export const metadata = {
   title: 'Relatório de Vendas e Payouts',
@@ -16,7 +17,10 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        {children}
+        <ReportUpdates />
+      </body>
     </html>
   )
 }
